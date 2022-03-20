@@ -1,0 +1,18 @@
+Command console.log() shows a message in the console
+Value is a piece of information
+Type of value defines its role and operations applicable to it
+JS language uses number type to represent numerical value
+String type to represent text
+String value surrounded by pair of single quotes or pair of quote marks
+Arithmetic operations _ - * / operators
++ operator joins two strings together -- Concatenation
+// This is a single line comment
+/* This is a
+multi-line comment */
+
+
+each instruction inside a program is called a statement
+statement in JS usually ends with a semicolon
+
+execution flow
+

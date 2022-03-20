@@ -1,0 +1,17 @@
+variable is an information storage area
+every variable has a name, value, and type
+type of variable is deduced from value stored in it
+javascript is a dynamically typed language
+variable is declared using let keyword followed by variable name
+const keyword instead to declare a constant
+use assignment operator = to give a value to a variable
+scope of a variable is the part of program where variable is visible
+variables declared with let or const are block scoped
+code block is a portion of a program delimited by a pair of opening and closing curly braces
+expression is a piece of code that combines variables, values, and operators
+evaluating an expression produces a value, which has a type
+expressions may be included in strings delimted by backticks
+template literal ^^
+type conversions may happen implicity or explicitly
+prompt() and alert() commands deal with information input and display in form of dialog boxes
+variable naming processes
