@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<!--
+	 JSWAY: Write a program that accepts two numbers, then compares their values and displays an appropriate message in all cases.
+	-->
+
+	<script>
+	// declare variables
+	let firstNum = prompt("Gimme a number... A whole number.")
+	let secondNum = prompt("Gimme anudder one... Whole number, please.")
+	
+	// Convert string values to number values
+	firstNum = Number(firstNum);
+	secondNum = Number(secondNum);
+
+	// Comparisons
+	if (firstNum == secondNum) {
+		alert("The two numbers are equal.");
+	} else if (firstNum > secondNum) {
+		alert(firstNum + ' is greater than ' + secondNum);
+	} else if (firstNum < secondNum) {
+		alert(firstNum + ' is less than ' + secondNum);
+	}
+
+	</script>
+
+</body>
+</html>

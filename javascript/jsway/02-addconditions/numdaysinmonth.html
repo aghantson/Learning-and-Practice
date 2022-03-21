@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<!--
+	 JSWAY: write a program that accepts a month number (between 1 and 12), then shows the number of days of that month. Leap years are excluded. Incorrect inputs must be taken into account.
+	-->
+
+	<script>
+	//Accept a number 1-12
+	let monthNum = Number(prompt("Give a month number 1-12, and I will return the number of days in that month."));
+	
+	//Ensure number is actually between 1-12
+	//Then return number of days
+
+	if (monthNum > 13 || monthNum < 1) {
+		alert("Refresh and try again");
+	} else if (0 < monthNum < 13) {
+		if (monthNum == 1) {
+			alert("31 days");
+		} else if (monthNum == 2) {
+			alert("28 days");
+		} else if (monthNum == 3) {
+			alert("31 days");
+		} else if (monthNum == 4) {
+			alert("30 days");
+		} else if (monthNum == 5) {
+			alert("31 days");
+		} else if (monthNum == 6) {
+			alert("30 days");
+		} else if (monthNum == 7) {
+			alert("31 days");
+		} else if (monthNum == 8) {
+			alert("31 days");
+		} else if (monthNum == 9) {
+			alert("30 days");
+		} else if (monthNum == 10) {
+			alert("31 days");
+		} else if (monthNum == 11) {
+			alert("30 days");
+		} else if (monthNum == 12) {
+			alert("31 days");
+		}
+	}
+
+
+
+	</script>
+
+</body>
+</html>

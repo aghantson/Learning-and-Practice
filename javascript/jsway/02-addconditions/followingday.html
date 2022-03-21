@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<!--
+	 JSWAY: write a program that accepts a day name from the user, then shows the name of the following day. Incorrect inputs must be taken into account.
+	-->
+
+	<script>
+	
+	let dayInput = prompt("What is a day of the week? I will tell you the next day.")
+	let dayString  = dayInput.toLowerCase();
+
+
+	// I know this can be done with an array, in some way, but I have not reached that point yet in the learning, so I am manually giving each statement.
+
+	if (dayString == "sunday") {
+		alert("next day is Monday");
+	} else if (dayString == "monday") {
+		alert("next day is Tuesday");
+	} else if (dayString == "tuesday") {
+		alert("next day is Wednesday");
+	} else if (dayString == "wednesday") {
+		alert("next day is Thursday");
+	} else if (dayString == "thursday") {
+		alert("next day is Friday");
+	} else if (dayString == "friday") {
+		alert("next day is Saturday");
+	} else if (dayString == "saturday") {
+		alert("next day is Sunday");
+	} else {
+		alert("That's not a day! Refresh and try again.");
+	}
+
+	</script>
+
+</body>
+</html>

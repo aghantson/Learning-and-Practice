@@ -1,0 +1,14 @@
+if keyword defines a conditional statement
+also called a test
+associated code block is only run if condition is satisfied (its value is true)
+thus, condition is an expression whose evaluation always produces a boolean result
+code block associated to an if is delimited by pair of opening and closing brackets
+to improve visibility, its statements are generally indented
+comparison operators ===, !==, <, <=, > and >= 
+else statement can be associated to an if to express an alternative
+never both, no limit to the depth of condition nesting
+complex conditions can be created using logical operators
+logical operators : && || !
+switch statement is used to kick off the execution of one code block among many, depending on value of expression
+
+
